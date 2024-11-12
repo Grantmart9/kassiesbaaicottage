@@ -17,7 +17,7 @@ export const AboutUs = () => {
     <div className="flex align-center justify-center my-auto">
       <Card style={{ backgroundColor: layoutbgcolor, boxShadow: "none" }}>
         <CardContent
-          className="flex align-center justify-center"
+          className="flex align-center justify-center font-bold"
           sx={{ color: textcolor }}
         >
           About Us
@@ -111,6 +111,7 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
                 bgcolor: "transparent",
                 maxWidth: "500pt",
                 padding: "20pt",
+                boxShadow: "none",
               }}
             >
               Kassiesbaai Cottage: Your Perfect Seaside Escape in Arniston
@@ -132,6 +133,7 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
                 maxWidth: "500pt",
                 padding: "20pt",
                 marginTop: "20pt",
+                boxShadow: "none",
               }}
             >
               Comfort and Convenience at Your Fingertips Inside, Kassiesbaai
@@ -153,6 +155,7 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
                 maxWidth: "500pt",
                 padding: "20pt",
                 marginTop: "20pt",
+                boxShadow: "none",
               }}
             >
               Explore Arniston and Beyond Kassiesbaai Cottage isn't just about

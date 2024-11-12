@@ -12,7 +12,7 @@ export const ContactUs = () => {
     <div className="flex align-center justify-center my-auto">
       <Card sx={{ backgroundColor: layoutbgcolor, boxShadow: "none" }}>
         <CardContent
-          className="flex align-center justify-center"
+          className="flex align-center justify-center font-bold"
           sx={{ color: textcolor }}
         >
           Contact Us

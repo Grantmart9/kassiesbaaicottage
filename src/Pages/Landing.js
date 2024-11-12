@@ -58,11 +58,13 @@ const LandingContext = () => {
         <TextAnimation />
       </div>
       <CardContent
+        className="flex align-center mx-auto"
         style={{
           fontFamily: AppFont,
           color: textcolor,
           backgroundColor: layoutbgcolor,
           border: "none",
+          maxWidth: "800pt",
         }}
       >
         <div className="text-center justify-center">
