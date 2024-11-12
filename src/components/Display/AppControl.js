@@ -17,7 +17,7 @@ export const layoutbgcolor = "whitesmoke";
 export const masterbgcolor = "whitesmoke";
 
 // Text font //
-export const AppFont = "Roboto, sans-serif";
+export const AppFont = "PT Sans, sans-serif";
 
 // Button Styling //
 export const ButtonStyle = { bgcolor: "transparent", color: "whitesmoke" };

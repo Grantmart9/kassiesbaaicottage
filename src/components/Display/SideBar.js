@@ -29,7 +29,7 @@ export const SideBar = ({ setTopBarOn }) => {
               style={{
                 fontFamily: AppFont,
                 color:textcolor,
-                fontSize: isResponsiveSize ? "7pt" : "10pt",
+                fontSize: isResponsiveSize ? "10pt" : "13pt",
               }}
             >
               {page.name}
