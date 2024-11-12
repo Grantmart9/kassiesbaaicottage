@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Size } from "components/Display/media-query";
 import Vid from "Videos/Vid.mp4";
+import Vid2 from "Videos/Vid2.mp4";
 import {
   AppFont,
   ButtonStyle,
@@ -117,16 +118,29 @@ export const Landing = ({ topBarOn }) => {
       }}
     >
       <div>
-        <video
-          autoPlay
-          muted
-          loop
-          style={{
-            zIndex: 1,
-            width: "100%",
-          }}
-          src={Vid}
-        />
+        {isResponsiveSize ? (
+          <video
+            autoPlay
+            muted
+            loop
+            style={{
+              zIndex: 1,
+              width: "100%",
+            }}
+            src={Vid}
+          />
+        ) : (
+          <video
+            autoPlay
+            muted
+            loop
+            style={{
+              zIndex: 1,
+              width: "100%",
+            }}
+            src={Vid2}
+          />
+        )}
       </div>
       <div
         style={{

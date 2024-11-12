@@ -13,8 +13,8 @@ import I8 from "Images/I8.jpg";
 export const textcolor = "black";
 
 // Background colors //
-export const layoutbgcolor = "whitesmoke";
-export const masterbgcolor = "whitesmoke";
+export const layoutbgcolor = "#f2f5f5";
+export const masterbgcolor = "#f2f5f5";
 
 // Text font //
 export const AppFont = "Roboto, sans-serif";

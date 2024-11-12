@@ -100,13 +100,19 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
       sx={{ backgroundColor: layoutbgcolor }}
       className="rounded-md"
     >
-      <div sx={{ color: textcolor }}>
+      <div className="flex align-center justify-center p-2">
         <div className="grid md:grid-cols-2 gap-0">
           <div
-            style={{ color: textcolor }}
-            className="text-center justify-center p-4"
+            sx={{ color: textcolor }}
+            className="text-center justify-center p-2"
           >
-            <div>
+            <Card
+              sx={{
+                bgcolor: "transparent",
+                maxWidth: "500pt",
+                padding: "20pt",
+              }}
+            >
               Kassiesbaai Cottage: Your Perfect Seaside Escape in Arniston
               Escape to the tranquil beauty of Arniston and experience the
               ultimate beachfront retreat at Kassiesbaai Cottage. Located just
@@ -119,8 +125,15 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
               of your private patio or enjoying a meal cooked on the barbecue,
               Kassiesbaai Cottage is designed to offer you a memorable
               experience.
-            </div>
-            <div className="mt-3">
+            </Card>
+            <Card
+              sx={{
+                bgcolor: "transparent",
+                maxWidth: "500pt",
+                padding: "20pt",
+                marginTop: "20pt",
+              }}
+            >
               Comfort and Convenience at Your Fingertips Inside, Kassiesbaai
               Cottage is designed to make you feel right at home. The spacious
               open-plan living area features a fully equipped kitchen with
@@ -133,8 +146,15 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
               features a private entrance. Whether you're unwinding indoors or
               enjoying the surrounding natural beauty, you'll find every comfort
               you need right at your doorstep.
-            </div>
-            <div className="mt-3">
+            </Card>
+            <Card
+              sx={{
+                bgcolor: "transparent",
+                maxWidth: "500pt",
+                padding: "20pt",
+                marginTop: "20pt",
+              }}
+            >
               Explore Arniston and Beyond Kassiesbaai Cottage isn't just about
               relaxation — it's also about adventure. The picturesque town of
               Arniston offers a range of exciting outdoor activities, from
@@ -146,11 +166,9 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
               special. With its unbeatable location, comfortable amenities, and
               breathtaking surroundings, it’s no wonder that couples have rated
               it an exceptional 9.6 for a two-person trip.
-            </div>
+            </Card>
           </div>
-          <div>
-            <WovenImageList />
-          </div>
+          <WovenImageList />
         </div>
       </div>
     </div>
