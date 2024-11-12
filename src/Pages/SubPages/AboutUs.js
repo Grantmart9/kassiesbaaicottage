@@ -26,10 +26,16 @@ export const AboutUs = () => {
           className="flex text-center justify-center"
           sx={{ color: textcolor }}
         >
-          We transform ideas into innovative software solutions with a focus on
-          exceptional user experiences. Our experienced team delivers tailored
-          web and app development, ensuring high-quality, scalable products with
-          ongoing support. Partner with us to bring your vision to life.
+          Kassiesbaai Cottage offers a peaceful beachfront retreat in Arniston,
+          just steps from Arniston Beach. This one-bedroom apartment features a
+          fully equipped kitchen, cozy living area with a fireplace, and a
+          private entrance for added privacy. Guests can enjoy stunning sea
+          views, barbecue facilities, free Wi-Fi, and activities like darts and
+          cycling. The cottage is also wheelchair accessible and offers easy
+          access to nearby attractions like the Arniston Cave (1.4 km) and
+          Shipwreck Museum in Bredasdorp (25 km). With its tranquil setting and
+          excellent amenities, it’s no wonder couples love this location, rating
+          it 9.6 for a romantic getaway.
         </CardContent>
       </Card>
     </div>
@@ -101,33 +107,45 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
             className="text-center justify-center p-4"
           >
             <div>
-              At Cloudcraft, we specialize in transforming ideas into
-              exceptional digital experiences. As a team of seasoned full-stack
-              software developers and dedicated front-end specialists, we
-              combine technical excellence with a passion for user-centric
-              design. Our goal is to create innovative software solutions that
-              not only meet your business needs but also deliver intuitive,
-              engaging experiences for your users.
+              Kassiesbaai Cottage: Your Perfect Seaside Escape in Arniston
+              Escape to the tranquil beauty of Arniston and experience the
+              ultimate beachfront retreat at Kassiesbaai Cottage. Located just
+              steps from the serene Arniston Beach, this charming one-bedroom
+              apartment offers breathtaking sea views, making it an ideal choice
+              for a romantic getaway or peaceful solo retreat. With barbecue
+              facilities, free Wi-Fi, and an array of activities such as darts
+              and cycling available, you'll have everything you need for a
+              relaxing stay. Whether you're watching the sunset from the comfort
+              of your private patio or enjoying a meal cooked on the barbecue,
+              Kassiesbaai Cottage is designed to offer you a memorable
+              experience.
             </div>
             <div className="mt-3">
-              From custom web applications to enterprise-grade solutions, we
-              focus on delivering high-quality products that are scalable,
-              secure, and easy to use. Our team works collaboratively with you
-              from concept to launch, ensuring that every project is tailored to
-              your specific requirements and goals.
+              Comfort and Convenience at Your Fingertips Inside, Kassiesbaai
+              Cottage is designed to make you feel right at home. The spacious
+              open-plan living area features a fully equipped kitchen with
+              modern appliances including an oven and microwave, while the cozy
+              sitting area boasts a flat-screen TV and a warming fireplace,
+              creating the perfect ambiance for any season. The bedroom is
+              peaceful and restful, complemented by a walk-in shower and a
+              bathroom designed for your comfort. Tiled floors throughout add to
+              the sleek, contemporary feel, and for added privacy, the cottage
+              features a private entrance. Whether you're unwinding indoors or
+              enjoying the surrounding natural beauty, you'll find every comfort
+              you need right at your doorstep.
             </div>
             <div className="mt-3">
-              After delivery, we provide ongoing support to ensure your systems
-              continue to perform optimally. Whether you're a startup aiming to
-              make an impact or an established business seeking to modernize,
-              Cloudcraft is your trusted partner for navigating the digital
-              landscape.
-            </div>
-            <div className="mt-3">
-              We are committed to helping you drive growth, enhance user
-              experiences, and stay ahead of the curve in a fast-evolving
-              market. Explore our services, check out our portfolio, and see how
-              Cloudcraft can help you bring your vision to life.
+              Explore Arniston and Beyond Kassiesbaai Cottage isn't just about
+              relaxation — it's also about adventure. The picturesque town of
+              Arniston offers a range of exciting outdoor activities, from
+              cycling through scenic landscapes to exploring the nearby Arniston
+              Cave, just 1.4 km away. History enthusiasts will enjoy a visit to
+              the Shipwreck Museum in Bredasdorp, only 25 km from the property.
+              After a day of exploration, return to your peaceful sanctuary and
+              unwind in the stunning setting that makes Kassiesbaai Cottage so
+              special. With its unbeatable location, comfortable amenities, and
+              breathtaking surroundings, it’s no wonder that couples have rated
+              it an exceptional 9.6 for a two-person trip.
             </div>
           </div>
           <div>

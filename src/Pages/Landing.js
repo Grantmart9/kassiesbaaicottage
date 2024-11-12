@@ -65,24 +65,17 @@ const LandingContext = () => {
         }}
       >
         <div className="text-center justify-center">
-          At Cloudcraft, we are dedicated to transforming ideas into reality
-          through cutting-edge technology and innovative development solutions.
-          With a team of experienced professionals, we specialize in delivering
-          tailored software applications and web solutions that drive growth and
-          enhance user experiences.
-        </div>
-        <div className="text-center justify-center mt-3">
-          Our commitment to quality, creativity, and collaboration ensures that
-          each project is handled with the utmost care, resulting in products
-          that not only meet but exceed your expectations. Whether you are a
-          startup looking to establish your online presence or an established
-          enterprise seeking to modernize your systems, we are here to partner
-          with you every step of the way.
-        </div>
-        <div className="text-center justify-center mt-3">
-          Explore our services, view our portfolio, and discover how Cloudcraft
-          can help you achieve your goals and stay ahead in today’s fast-paced
-          digital world.
+          Welcome to Kassiesbaai Cottage, your perfect seaside escape in the
+          heart of Arniston. Nestled just steps from the tranquil shores of
+          Arniston Beach, our cozy one-bedroom apartment offers stunning sea
+          views, modern comforts, and a peaceful atmosphere for the ultimate
+          getaway. Whether you're here to relax, explore the natural beauty of
+          the area, or enjoy some quality time with loved ones, our charming
+          cottage provides the perfect setting for a memorable stay. With a
+          range of amenities, including a fully equipped kitchen, barbecue
+          facilities, and easy access to local attractions, Kassiesbaai Cottage
+          is the ideal destination for those seeking a coastal retreat with a
+          personal touch.
         </div>
       </CardContent>
       <CardActions
